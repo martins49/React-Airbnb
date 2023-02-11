@@ -15,7 +15,7 @@ const myDataArray =
         },
         {
             id: 2,
-            title: "Learn Wedding Photography",
+            title: "gWedding Photography",
             description: "Interested in becoming a wedding photographer? For beginner and experien photographers alike, join us in learning techniques required to leave the happy couple memories that'll last a lifetime",
             price: 125,
             coverImg: "/Images/Elegant Wedding Photography.jpeg",
