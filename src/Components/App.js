@@ -7,18 +7,19 @@ import myDataArray from "./Data"
 
 const App = () => {
     //console.log(myDataArray)
-    const arrayElement = myDataArray.map((item => {
+    const arrayElement = myDataArray.map(item => {
         return <Card
-            key={item.id}
-            img={item.coverImg}
-            rating={item.stats.rating}
-            reviewCount={item.stats.reviewCount}
-            country={item.location}
-            title={item.title}
-            price={item.price}
-            openspots = {item.openSpots}
+            key={item.id} //to avoid the warning msg while using Mappin function
+            {...item} //using the spread operator
+        //  img={item.coverImg}
+        // rating={item.stats.rating}
+        // reviewCount={item.stats.reviewCount}
+        // country={item.location}
+        // title={item.title}
+        // price={item.price}
+        // openspots = {item.openSpots}
         />
-    }))
+    })
     return (
         <div >
             <div class="container">

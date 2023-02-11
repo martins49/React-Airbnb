@@ -28,15 +28,15 @@ const myDataArray =
         },
         {
             id: 3,
-            title: "Group Mountain Biking",
+            title: "Mountain Biking",
             description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
             price: 50,
             coverImg: "/Images/mountain-bike.jpeg",
             stats: {
                 rating: 5.0,
-                reviewCount: 30
+                reviewCount: 10
             },
-            location: "Online",
+            location: "offline",
             openSpots: 3,
         }
     ]
